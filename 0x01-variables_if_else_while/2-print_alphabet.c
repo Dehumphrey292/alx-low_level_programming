@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - main block
  * desciption: print the alphabet in lower case
