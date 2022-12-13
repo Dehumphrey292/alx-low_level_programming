@@ -1,34 +1,30 @@
 #include <stdio.h>
 
 /**
- *main - combination of posible numbers*
- *Return: 0 (Success)
+ * main - main block
+ * desciption: print the alphabet in lower case
+ * and the in uppercase, follew by new line
+ * Return: 0 (Success)
  */
 
 int main(void)
-
 {
-	int i;
+	char c = 'a';
 
-	int a;
-
-	for (i = 48; i <= 56; i++)
-
+	while (c <= '2')
 	{
-		for (a = 49; a <= 57; a++)
-		{
-			if (a > i)
-			{
-				putchar(i);
-				putchar(a);
-				if (i != 56 || a != 57)
-				{
-					putchar(44);
-					putchar(32);
-				}
-			}
-		}
+		putchar(c);
+		c++;
 	}
+
+	c = 'A';
+
+	while (c <= '2')
+	{
+		putchar(c);
+		c++;
+	}
+
 	putchar('\n');
 	return (0);
 }
